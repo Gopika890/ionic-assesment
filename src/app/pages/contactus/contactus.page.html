@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Contact Us</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Contact Us On</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="contact-us-container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contact us through</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>
+          Your feedback is important to us, and we're here to help with any questions or concerns you may have. Feel free to use the contact form below or get in touch with us directly using the contact details provided.
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contact Information</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Address:</strong> church street,mumbai</p>
+        <p><strong>Email:</strong> contact&#64;rarebeautycompany.com</p>
+        <p><strong>Phone:</strong> +918075532932</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contact Form</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="stacked">Name</ion-label>
+          <ion-input type="text" placeholder="YOUR NAME"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Email</ion-label>
+          <ion-input type="email" placeholder="YOUR EMAIL"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Message</ion-label>
+          <ion-textarea placeholder="YOUR MESSAGE"></ion-textarea>
+        </ion-item>
+
+        <ion-button expand="block" color="primary" class="submit-button">Submit</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

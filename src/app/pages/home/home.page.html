@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="home-content">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="home-container">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" size-md="6" size-lg="4">
+          <ion-card class="home-card">
+            <ion-card-header>
+              <ion-card-title>Welcome to the Home Page</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p>
+                Welcome to our beauty hub! Discover the latest in skincare, makeup, and beauty trends. We're dedicated to bringing you the best products, tips, and updates to elevate your beauty routine and keep you in the know.
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="12" size-md="6" size-lg="4">
+          <ion-card class="home-card">
+            <ion-card-header>
+              <ion-card-title>Our Products</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p>
+                Explore our collection of premium makeup products tailored to enhance your beauty. Whether you're searching for cutting-edge cosmetics or trusted essentials, we have something for every beauty lover.
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+
+        <ion-col size="12" size-md="6" size-lg="4">
+          <ion-card class="home-card">
+            <ion-card-header>
+              <ion-card-title>Stay Connected with Us</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p>
+                For the latest updates and news, follow our social media channels or <ion-router-link routerLink="/contact-us">contact us</ion-router-link> for more information on our beauty products.
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

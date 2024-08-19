@@ -1,0 +1,32 @@
+// .home-content {
+//   --background: url('/assets/background-image.jpg') no-repeat center center;
+//   --background-size: cover;
+//   height: 100%;
+// }
+
+.home-container {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background to ensure readability */
+  border-radius: 8px;
+}
+
+.home-card {
+  border-radius: 8px;
+  margin: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.home-card:hover {
+  transform: scale(1.02); /* Slightly enlarge the card on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+ion-card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+ion-card-content p {
+  font-size: 14px;
+  line-height: 1.6;
+}
